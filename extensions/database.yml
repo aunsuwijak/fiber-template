@@ -1,0 +1,19 @@
+development:
+  - database: pg
+    host: localhost
+    port: 5432
+    name: todo_development
+  - database: redis
+    host: localhost
+    port: 6379
+    name: todo_cached_development
+
+test:
+  - database: pg
+    host: localhost
+    port: 5432
+    name: todo_test
+  - database: redis
+    host: localhost
+    port: 6379
+    name: todo_cached_test
